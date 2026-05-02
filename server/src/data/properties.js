@@ -1,0 +1,200 @@
+export const properties = [
+  {
+    title: "Skyline Crest Penthouse",
+    type: "Penthouse",
+    status: "For Sale",
+    city: "Mumbai",
+    neighborhood: "Worli Sea Face",
+    price: 74000000,
+    bedrooms: 4,
+    bathrooms: 5,
+    area: 4200,
+    yearBuilt: 2021,
+    featured: true,
+    furnished: true,
+    parking: 3,
+    rating: 4.9,
+    lat: 19.0169,
+    lng: 72.8174,
+    tags: ["Sea view", "Private deck", "Concierge"],
+    amenities: ["Infinity pool", "Gym", "Smart home", "Club lounge"],
+    agent: {
+      name: "Rhea Kapoor",
+      role: "Luxury Homes Advisor",
+      phone: "+91 98765 24011",
+      email: "rhea@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A high-floor residence with wraparound views, generous entertaining areas, and concierge-grade services."
+  },
+  {
+    title: "The Grove Family Villa",
+    type: "Villa",
+    status: "For Sale",
+    city: "Bengaluru",
+    neighborhood: "Whitefield",
+    price: 38500000,
+    bedrooms: 5,
+    bathrooms: 5,
+    area: 5100,
+    yearBuilt: 2019,
+    featured: true,
+    furnished: false,
+    parking: 4,
+    rating: 4.8,
+    lat: 12.9698,
+    lng: 77.7499,
+    tags: ["Garden", "Gated community", "Solar ready"],
+    amenities: ["Private lawn", "Home office", "Security", "Kids play area"],
+    agent: {
+      name: "Aarav Mehta",
+      role: "Villa Specialist",
+      phone: "+91 99887 45120",
+      email: "aarav@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A calm villa designed for hybrid family life, with generous outdoor space and flexible work zones."
+  },
+  {
+    title: "Harborline Studio Loft",
+    type: "Studio",
+    status: "For Rent",
+    city: "Pune",
+    neighborhood: "Koregaon Park",
+    price: 82000,
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 850,
+    yearBuilt: 2022,
+    featured: false,
+    furnished: true,
+    parking: 1,
+    rating: 4.6,
+    lat: 18.5362,
+    lng: 73.8938,
+    tags: ["Walkable", "Serviced", "Pet friendly"],
+    amenities: ["Rooftop cafe", "Coworking", "Housekeeping", "EV charging"],
+    agent: {
+      name: "Nisha Rao",
+      role: "Rental Consultant",
+      phone: "+91 90110 77344",
+      email: "nisha@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A furnished studio close to restaurants, offices, and parks, built for frictionless urban living."
+  },
+  {
+    title: "Palm Court Residences",
+    type: "Apartment",
+    status: "For Sale",
+    city: "Delhi NCR",
+    neighborhood: "Golf Course Road",
+    price: 22800000,
+    bedrooms: 3,
+    bathrooms: 3,
+    area: 2350,
+    yearBuilt: 2020,
+    featured: true,
+    furnished: true,
+    parking: 2,
+    rating: 4.7,
+    lat: 28.4595,
+    lng: 77.0266,
+    tags: ["Metro access", "Golf view", "Move-in ready"],
+    amenities: ["Pool", "Clubhouse", "Tennis court", "Visitor parking"],
+    agent: {
+      name: "Kabir Sethi",
+      role: "Residential Sales Lead",
+      phone: "+91 98100 11882",
+      email: "kabir@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A practical premium apartment with great connectivity, strong amenities, and polished interiors."
+  },
+  {
+    title: "Lakeview Duplex House",
+    type: "Duplex",
+    status: "For Rent",
+    city: "Hyderabad",
+    neighborhood: "Jubilee Hills",
+    price: 185000,
+    bedrooms: 4,
+    bathrooms: 4,
+    area: 3600,
+    yearBuilt: 2018,
+    featured: false,
+    furnished: true,
+    parking: 2,
+    rating: 4.5,
+    lat: 17.4326,
+    lng: 78.4071,
+    tags: ["Lake view", "Media room", "Quiet street"],
+    amenities: ["Terrace", "Modular kitchen", "Backup power", "Security"],
+    agent: {
+      name: "Ishaan Verma",
+      role: "Relocation Advisor",
+      phone: "+91 91000 55234",
+      email: "ishaan@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A spacious rental for senior professionals and families who want privacy without losing city access."
+  },
+  {
+    title: "Cedar Business Suites",
+    type: "Commercial",
+    status: "For Lease",
+    city: "Chennai",
+    neighborhood: "OMR",
+    price: 265000,
+    bedrooms: 0,
+    bathrooms: 4,
+    area: 6200,
+    yearBuilt: 2023,
+    featured: false,
+    furnished: false,
+    parking: 8,
+    rating: 4.4,
+    lat: 12.9165,
+    lng: 80.2303,
+    tags: ["Grade A", "IT corridor", "Flexible floorplate"],
+    amenities: ["Reception", "Server room", "Meeting rooms", "Cafeteria"],
+    agent: {
+      name: "Meera Iyer",
+      role: "Commercial Leasing",
+      phone: "+91 98404 22456",
+      email: "meera@estateflow.test",
+      avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=256&q=80"
+    },
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80"
+    ],
+    description: "A configurable commercial suite for teams that need a polished address and fast occupancy."
+  }
+];
